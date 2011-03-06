@@ -41,7 +41,7 @@
 
 ###########################################################################
 # send to png
-png(file = "out-1.png", width = 800, height = 800)
+png(file = "out-1.png", width = 1200, height = 1000)
 
  # Plot annotation strings
    y_lab <- expression(paste("Arctic SIE - millions k",m^2))
