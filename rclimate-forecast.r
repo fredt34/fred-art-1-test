@@ -9,6 +9,7 @@
 ## I got the basic idea of quadratic regression from Tamino, Open Mind Post:              ##
 ##    http://tamino.wordpress.com/2010/09/14/death-spiral/                                ##
 ## Updated 2/22/11: Reader Edi noticed that I did not define my predict vector a.         ##
+## Fred added code to generate a png graph (out-1.png)
 ############################################################################################
   
  link_n <- "http://processtrends.com/files/RClimate_NSIDC_sea_ice_extent.csv"
@@ -40,11 +41,11 @@
 
 ###########################################################################
 # send to png
-png(file = "out-1.png", width = 500, height = 400)
+png(file = "out-1.png", width = 800, height = 800)
 
  # Plot annotation strings
    y_lab <- expression(paste("Arctic SIE - millions k",m^2))
-   pl_title <- "September Arctic Sea Ice Extent\n 1980-2010 Trend & Forecast for 2011 - on Centaure"
+   pl_title <- "September Arctic Sea Ice Extent\n 1980-2010 Trend & Forecast for 2011 - on arctic-graphs.net"
    proj_2011 <- paste("Forecast Sept, 2011 SIE @ ",signif(f[,1],3), " mil km2 ", "(CI: "
      , signif(f[,2],3), " - ", signif(f[,3],3),")",sep="")  
 
