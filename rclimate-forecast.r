@@ -39,6 +39,9 @@
   f_range <- range(f[,2]:f[,3])
 
 ###########################################################################
+# send to png
+png(file = "out-1.png", width = 500, height = 400)
+
  # Plot annotation strings
    y_lab <- expression(paste("Arctic SIE - millions k",m^2))
    pl_title <- "September Arctic Sea Ice Extent\n 1980-2010 Trend & Forecast for 2011 - on Centaure"
@@ -70,5 +73,6 @@
        mtext("D Kelly O'Day - http://chartsgraphs.wordpress.com", 1,1, adj = 0, cex = 0.8, outer=T)
        mtext(format(Sys.time(), "%m/%d/ %Y"), 1, 1, adj = 1, cex = 0.8, outer=T)
 
-
+# file's end
+dev.off()
 
