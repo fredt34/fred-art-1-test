@@ -40,12 +40,12 @@
   f_range <- range(f[,2]:f[,3])
 
 ###########################################################################
-# send to png
-png(file = "out-1.png", width = 1200, height = 1000)
+# send to png - original size 1200x1000 is too big
+png(file = "out-1.png", width = 800, height = 700)
 
  # Plot annotation strings
    y_lab <- expression(paste("Arctic SIE - millions k",m^2))
-   pl_title <- "September Arctic Sea Ice Extent\n 1980-2010 Trend & Forecast for 2011 - on arctic-graphs.net"
+   pl_title <- "September Arctic Sea Ice Extent\n 1980-2010 Trend & Forecast for 2011 - on www.arctic-graphs.net"
    proj_2011 <- paste("Forecast Sept, 2011 SIE @ ",signif(f[,1],3), " mil km2 ", "(CI: "
      , signif(f[,2],3), " - ", signif(f[,3],3),")",sep="")  
 
