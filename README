@@ -1,8 +1,9 @@
 This is a test project.
 Goals:
-- setup this git account
-- learn & test
-- write the first R program to handle the stuff
-- setup the arctic thingie
+- setup this git account - DONE
+- learn & test - STARTED, enough is ready
+- write the first R program to handle the stuff - Took graph & code from http://chartsgraphs.wordpress.com/2011/02/22/september-2011-arctic-sea-ice-extent-forecast/
+- setup the arctic thingie - YUP, first results are nice...
 
-It was edited on the server.
+Code is edited here, updated on the server (php calls shell script to update the local git there, launch the R script and create ze graph). 
+All done in 3 hours :-)
