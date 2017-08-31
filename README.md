@@ -53,20 +53,6 @@ Gravizo now supports activity diagrams.
 How to use Gravizo
 Direct
 Use Gravizo is very easy, only need to call the url https://g.gravizo.com/svg? followed by your graph description in DOT, PlantUML or UMLGraph syntax.
-
-Indirect
-Use https://g.gravizo.com/source/svg?<source_url_url_encoded>. Gravizo will look at source_url_url_encode for a source graph.
-
-You can also include a mark to search the code inside de source file https://g.gravizo.com/source/svg/<mark>?<source_url_url_encoded>. Then inside your source file use the word mark (or whatever you want) to mark the start and the end of your graph. Look at bitbucket for examples.
-
-Ouput as PNG or SVG
-You can choose between render graph as PNG or SVG.
-
-Only need to replace https://g.gravizo.com/svg? by https://g.gravizo.com/g? and https://g.gravizo.com/source/svg? by https://g.gravizo.com/source/g?
-
-Simple html tag
-You can use Gravizo including an image tag <img src='https://g.gravizo.com/svg? follow by a graph description writed in DOT, PlantUML or UMLGraph, and then close the image tag
-
 <img src='https://g.gravizo.com/svg?
  digraph G {
    main -> parse -> execute;
