@@ -10,3 +10,5 @@ Code is edited here, updated on the server (php calls shell script to update the
 All done in 3 hours :-)
 
 ![First graph](https://g.gravizo.com/source/custom_mark10?https%3A%2F%2Fraw.githubusercontent.com%2Ffredt34%2Ffred-art-1-test%2Fmaster%2Fsource.gravizo)
+
+![Workflow](https://g.gravizo.com/source/workflow1?https%3A%2F%2Fraw.githubusercontent.com%2Ffredt34%2Ffred-art-1-test%2Fmaster%2Fsource.gravizo)
