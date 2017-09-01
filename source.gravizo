@@ -20,7 +20,7 @@ custom_mark10
 
 workflow1
   @startuml
-    actor U1 as Ulrick
+    actor Ulrick
     boundary Foo2
     control Foo3
     entity Foo4
